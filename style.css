@@ -1,0 +1,187 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.header{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.nav{
+  background-color: gainsboro;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu-bar{
+  padding: 2%;
+}
+
+.menu-bar > a{
+  padding: 2% 5% 2% 5%;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-bar :hover{
+  background-color: #f0f0f0;
+}
+
+.footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  color: grey;
+  padding: 1%;
+}
+
+.intro{
+  padding: 15% 45% 35% 15%;
+  background-image: url(../assets/wallpaper.jpg);
+}
+
+#word-game{
+  color: burlywood;
+}
+
+p{
+  font-size: large;
+  font-weight: 500;
+}
+
+.content-media{
+  background-color: lightslategray;
+  padding: 3% 5% 3% 5%;
+}
+
+.box-1{
+  background-image: url(../assets/wallpaper.jpg);
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.box-1-1{
+  text-align: center;
+  justify-content: center;
+  margin: 0% 10% 3% 10%;
+}
+
+.box-1-1 > a{
+  color: black;
+}
+
+.box-1-2{
+  text-align: center;
+  justify-content: center;
+}
+
+.box-1-2 > img{
+  margin: 2%;
+  width: 20vw;
+}
+
+.box-2{
+  background-image: url(../assets/img13.jpg);
+  padding: 5%;
+}
+
+.content-about{
+  background-image: url(../assets/wp2.jpg);
+  padding: 3% 5% 3% 5%;
+}
+
+.content-about-container{
+  background-color: lightsteelblue;
+  opacity: 0.85;
+  padding: 5%;
+}
+
+.about-box{
+  border-radius: 5px;
+  border-style: double;
+  padding: 3%;
+  text-align: center;
+  justify-content: center;
+}
+
+.content-community{
+  background-image: url(../assets/bg-community.jpg);
+  padding: 3% 5% 3% 5%;
+}
+
+.content-community-container{
+  background-color: white;
+  opacity: 0.85;
+  padding: 5%;
+}
+
+.community-box{
+  border-radius: 5px;
+  border-style: double;
+  padding: 3%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.community-box > a > img{
+  width: 25vw;
+  margin: 3%;
+}
+
+.community-box > .round > img{
+  width: 15vw;
+}
+
+.content-buy{
+  background-image: url(../assets/bg-buy.jpg);
+  padding: 3% 5% 3% 5%;
+}
+
+.content-buy-container{
+  background-color: white;
+  padding: 5%;
+  opacity: 0.85;
+}
+
+.buy-box{
+  border-radius: 5px;
+  border-style: double;
+  padding: 3%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  text-align: center;
+  justify-content: center;
+}
+
+
+.buy-box > input, .buy-box > label{
+  margin: 2% 30% 0% 30%;
+}
+
+.buy-box > label{
+  font-size: large;
+  font-weight: bold;
+}
+
+.buy-box > textarea{
+  margin: 0% 30% 0% 30%;
+}
+
+button{
+  margin: 3% 40% 0% 40%;
+  height: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
